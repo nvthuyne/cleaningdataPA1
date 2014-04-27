@@ -1,4 +1,3 @@
-
 # Returns one data set by reading and merging all component files.
 # Data set comprises of the X values, Y values and Subject IDs.
 # The path_prefix indicates the path where the data files can be found.
@@ -92,6 +91,6 @@ print("Assuming data files from the \"UCI HAR Dataset\" are availale in the curr
 print("    Refer Data:")
 print("    archive: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip")
 print("    description: dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones")
-print("Creating tidy dataset as tidy.txt...")
-createTidyDataFile("tidy.txt")
+print("Creating tidy dataset as tidy-dataset.txt...")
+createTidyDataFile("tidy-dataset.txt")
 print("Done.")
